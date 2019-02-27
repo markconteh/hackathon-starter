@@ -1,0 +1,28 @@
+
+> node-sass@4.8.3 install C:\Users\markc\Desktop\hackathon-starter\node_modules\node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.8.3/win32-x64-64_binding.node
+
+> node-sass@4.8.3 postinstall C:\Users\markc\Desktop\hackathon-starter\node_modules\node-sass
+> node scripts/build.js
+
+Building: C:\Program Files\nodejs\node.exe C:\Users\markc\Desktop\hackathon-starter\node_modules\node-gyp\bin\node-gyp.js rebuild --verbose --libsass_ext= --libsass_cflags= --libsass_ldflags= --libsass_library=
+Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
+Build started 2/19/2019 9:20:51 PM.
+Project "C:\Users\markc\Desktop\hackathon-starter\node_modules\node-sass\build\binding.sln" on node 1 (default targets).
+ValidateSolutionConfiguration:
+  Building solution configuration "Release|x64".
+MSBUILD : error MSB3428: Could not load the Visual C++ component "VCBuild.exe". To fix this, 1) install the .NET Framework 2.0 SDK, 2) install Microsoft Visual Studio 2005 or 3) add the location of the component to the system path if it is installed elsewhere.  [C:\Users\markc\Desktop\hackathon-starter\node_modules\node-sass\build\binding.sln]
+Done Building Project "C:\Users\markc\Desktop\hackathon-starter\node_modules\node-sass\build\binding.sln" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\markc\Desktop\hackathon-starter\node_modules\node-sass\build\binding.sln" (default target) (1) ->
+(_src_\libsass target) -> 
+  MSBUILD : error MSB3428: Could not load the Visual C++ component "VCBuild.exe". To fix this, 1) install the .NET Framework 2.0 SDK, 2) install Microsoft Visual Studio 2005 or 3) add the location of the component to the system path if it is installed elsewhere.  [C:\Users\markc\Desktop\hackathon-starter\node_modules\node-sass\build\binding.sln]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:02.99
